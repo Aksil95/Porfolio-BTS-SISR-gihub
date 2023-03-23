@@ -2,32 +2,108 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aksel BENNEOUALA - Portfolio</title>
-  <!-- Ajoutez ici le lien vers vos fichiers CSS et JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* Styles de base */
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Menu de navigation */
+    nav {
+      background-color: #333;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      float: left;
+    }
+
+    nav a {
+      color: #f2f2f2;
+      display: block;
+      padding: 14px 16px;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Sections */
+    section {
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    /* Accueil */
+    #accueil {
+      background-color: #f1f1f1;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #accueil a {
+      background-color: #333;
+      color: #f2f2f2;
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    #accueil a:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
   <header>
     <!-- Menu de navigation -->
     <nav>
-      <ul>
-        <li><a href="#accueil">ACCUEIL</a></li>
-        <li><a href="#profil">PROFIL</a></li>
-        <li><a href="#bts-sio">BTS SIO</a></li>
-        <li><a href="#veille-technologique">VEILLE TECHNOLOGIQUE</a></li>
-        <li><a href="#stage">STAGE</a></li>
-        <li><a href="#document">DOCUMENT</a></li>
+      <ul class="container">
+        <li class="nav-item"><a class="nav-link" href="#accueil">ACCUEIL</a></li>
+        <li class="nav-item"><a class="nav-link" href="#profil">PROFIL</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bts-sio">BTS SIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#veille-technologique">VEILLE TECHNOLOGIQUE</a></li>
+        <li class="nav-item"><a class="nav-link" href="#stage">STAGE</a></li>
+        <li class="nav-item"><a class="nav-link" href="#document">DOCUMENT</a></li>
       </ul>
     </nav>
   </header>
 
   <section id="accueil">
     <div class="presentation">
-      <h1>Bonjour, je m'appelle Aksel Benneouala, étudiant en BTS SIO SISR</h1>
-      <a href="#profil">En savoir plus</a>
-    </div>
-  </section>
-  
-  <!-- Les autres sections... -->
-</body>
-</html>
+      <h1 class="animate__animated
+
+
 
