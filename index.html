@@ -31,10 +31,11 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
 
     nav li {
-      float: left;
+      display: inline-block;
     }
 
     nav a {
@@ -104,49 +105,90 @@
       margin-bottom: 20px;
       color: #ffffff;
     }
-  </style>
-</head>
-<body>
-  <nav>
-    <!-- Menu de navigation -->
-    <ul>
-      <li><a href="#accueil">ACCUEIL</a></li>
-      <li><a href="#profil">PROFIL</a></li>
-      <li><a href="#bts-sio">BTS SIO</a></li>
-      <li><a href="#veille-technologique">VEILLE TECHNOLOGIQUE</a></li>
-      <li><a href="#stage">ÉTAPE</a></li>
-      <li><a href="#document">DOCUMENT</a></li>
-    </ul>
-  </nav>
+    
+    /* Veille technologique */
+    #veille-technologique {
+      background-color: rgba(0, 0, 139, 0.7);
+    }
 
-  <section id="accueil">
-  <div class="presentation">
-    <h1>Bonjour, je m'appelle Aksel Benneouala, étudiant en BTS SIO SISR</h1>
-    <a href="#profil">En savoir plus</a>
-  </div>
-</section>
- 
-<section id="profil">
-    <!-- Ajoutez le contenu de la section "profil" ici -->
-</section>
+    #veille-technologique h2 {
+      margin-bottom: 20px;
+    }
 
-<section id="BTS SIO">
-  <h2>QU'EST CE QUE LE BTS SIO ?</h2>
-  <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, s'adresse à ceux qui souhaitent être formés en deux ans aux métiers d'administrateur réseau ou de développeur. Pour par la suite s'intégrer directement au marché du travail ou continuer des études dans le domaine de l'informatique.</p>
-  <h3>Option SISR</h3>
-  <p>L'option SISR (Solutions d'infrastructures, systèmes et réseaux) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance d'infrastructures réseaux. Les titulaires de cette option peuvent occuper des postes tels qu'administrateur réseau, technicien réseau ou encore ingénieur réseau. Les compétences acquises incluent la sécurité, la maintenance et l'installation des réseaux et des équipements informatiques.</p>
-  <h3>Option SLAM</h3>
-  <p>L'option SLAM (Solutions Logicielles et Applications Métier) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance de programmes applicatifs. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications informatiques, analyste d'applications ou d'études, ou encore responsable des services applicatifs. Les compétences acquises incluent la gestion d'un parc informatique, l'administration de réseaux et la sécurisation des serveurs, des postes clients et des équipements d'interconnexion.</p>
-</section>
+    #veille-technologique ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-<section id="veille-technologique">
-  <!-- Ajoutez le contenu de la section "veille-technologique" ici -->
-</section>
+    #veille-technologique li {
+      margin-bottom: 10px;
+    }
 
-<section id="stage">
-  <!-- Ajoutez le contenu de la section "stage" ici -->
-</section>
+    #veille-technologique a {
+      color: #ffffff;
+      text-decoration: none;
+    }
 
+    #veille-technologique a:hover {
+      text-decoration: underline;
+
+    }
+    </style>
+    </head>
+    <body>
+      <nav>
+        <!-- Menu de navigation -->
+        <ul>
+          <li><a href="#accueil">ACCUEIL</a></li>
+          <li><a href="#profil">PROFIL</a></li>
+          <li><a href="#bts-sio">BTS SIO</a></li>
+          <li><a href="#veille-technologique">VEILLE TECHNOLOGIQUE</a></li>
+          <li><a href="#stage">STAGE</a></li>
+          <li><a href="#document">DOCUMENT</a></li>
+        </ul>
+      </nav>
+      <section id="accueil">
+        <div class="presentation">
+          <h1>Bonjour, je m'appelle Aksel Benneouala, étudiant en BTS SIO SISR</h1>
+          <a href="#profil">En savoir plus</a>
+        </div>
+      </section>
+      <section id="profil">
+        <!-- Ajoutez le contenu de la section "profil" ici -->
+      </section>
+      <section id="bts-sio">
+        <h2>QU'EST CE QUE LE BTS SIO ?</h2>
+        <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, s'adresse à ceux qui souhaitent être formés en deux ans aux métiers d'administrateur réseau ou de développeur. Pour par la suite s'intégrer directement au marché du travail ou continuer des études dans le domaine de l'informatique.</p>
+        <h3>Option SISR</h3>
+        <p>L'option SISR (Solutions d'infrastructures, systèmes et réseaux) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance d'infrastructures réseaux. Les titulaires de cette option peuvent occuper des postes tels qu'administrateur réseau, technicien réseau ou encore ingénieur réseau. Les compétences acquises incluent la sécurité, la maintenance et l'installation des réseaux et des équipements informatiques.</p>
+        <h3>Option SLAM</h3>
+        <p>L'option SLAM (Solutions Logicielles et Applications Métier) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance de programmes applicatifs. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications informatiques, analyste d'applications ou d'études, ou encore responsable des services applicatifs. Les compétences acquises incluent la gestion d'un parc informatique, l'administration de réseaux et la sécurisation des serveurs, des postes clients et des équipements d'interconnexion.</p>
+      </section>
+      <section id="veille-technologique">
+        <h2>Veille technologique</h2>
+        <p>Voici quelques ressources que je consulte régulièrement pour rester informé des dernières tendances et innovations technologiques :</p>
+        ubic</a></li>
+        <li><a href="https://www.01net.com/">01net</a></li>
+        <li><a href="https://www.journaldunet.com/">Journal du Net</a></li>
+        <li><a href="https://www.techrepublic.com/">TechRepublic</a></li>
+      </ul>
+      </section>
+      <section id="stage">
+    <h2>Rapport de stage</h2>
+    <p>Vous pouvez consulter mon rapport de stage en cliquant sur le lien ci-dessous :</p>
+    <a href="https://example.com/rapport-de-stage.pdf" target="_blank">Télécharger mon rapport de stage (PDF)</a>
+  </section>
 <section id="document">
-  <!-- Ajoutez le contenu de la section "document" ici -->
+  <h2>Mes travaux</h2>
+  <ul>
+    <li><a href="https://example.com/Mission1_SSH__1.pdf" target="_blank">Mission1_SSH__1</a></li>
+    <li><a href="https://example.com/Mission0_VM.pdf" target="_blank">Mission0_VM</a></li>
+    <li><a href="https://example.com/Mission_ARP_DNS.pdf" target="_blank">Mission_ARP_DNS</a></li>
+    <li><a href="https://example.com/Mission_1_SSH.pdf" target="_blank">Mission 1 SSH</a></li>
+    <li><a href="https://example.com/Mission_2_outil.pdf" target="_blank">Mission 2 outil</a></li>
+    <li><a href="https://example.com/missions_3_dhcp.pdf" target="_blank">missions 3 dhcp</a></li>
+    <li><a href="https://example.com/PIX.pdf" target="_blank">PIX</a></li>
+  </ul>
 </section>
+</body>
+</html>
