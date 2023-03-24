@@ -1,286 +1,152 @@
-<!DOCTYPE html >
-<  html   lang =" fr " >
-<  t ête  >
-  <  jeu  de  caractères  méta   =" UTF-8 " >
-  <  meta   name =" viewport " content =" width=device-width, initial-scale=1.0 " >
-  <  title  > Aksel BENNEOUALA - Portfolio </  title  >
-  <  style  >
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aksel BENNEOUALA - Portfolio</title>
+  <style>
     /* Styles de base */
-    corps {
-      font-family  :  Arial  ,  sans-serif ;
-      hauteur  de  ligne  :   1.6 ;
-      marge  :   0 ;
-      rembourrage  :   0 ;
-      image  de  fond  :   url ( 'https://example.com/background-image.jpg' ); /* Remplacez par l'URL de votre image de fond */
-      format de fond  :  couverture ;
-      background-repeat  :  pas  de  r épétition ;
-      position  d' arrière-plan : centre ;
-    }
-
-    un {
-      texte-d éc or ation :  aucun ;
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://example.com/background-image.jpg'); /* Remplacez par l'URL de votre image de fond */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     /* Menu de navigation */
-    navigation {
-      couleur  de  fond  :   rgba ( 0 ,   0 ,   139 ,   0.7 );
-      d éb ou dément :  masqué ;
-      poste  :  fixe ;
-      haut  :   0 ;
-      largeur  :   100 % ;
-      indice  z  :   100 ;
+    nav {
+      background-color: rgba(0, 0, 139, 0.7);
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
     }
 
-    nav   ul {
-      type  de  style  de  liste  :  aucun ;
-      marge  :   0 ;
-      rembourrage  :   0 ;
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
     }
 
-    navigation   { _
-      flotteur  :  gauche ;
+    nav li {
+      float: left;
     }
 
-    nav   un {
-      couleur  :   #  ffffff ;
-      affichage  :  bloc ;
-      rembourrage  :   14 px   16 px ;
-      text-align  :  center ;
+    nav a {
+      color: #ffffff;
+      display: block;
+      padding: 14px 16px;
+      text-align: center;
+      text-decoration: none;
     }
 
-    nav   a  :  survoler {
-      couleur  de  fond  :   #  ffffff ;
-      couleur  :   # 000000 ;
-    }
-
-    /* Sections */
-    rubrique {
-      rembourrage  :   80 px   0 ;
-      text-align  :  center ;
-    }
-
-    h1  ,   h2 {
-      couleur  :   #  ffffff ;
-    }
-
-    /* Accueil */
-    #  accueil {
-      couleur  de  fond  :   rgba ( 0 ,   0 ,   139 ,   0.7 );
-      hauteur  :   100 vh ;
-      affichage  :  flexible ;
-      align-items  :  center ;
-      justifier-contenu  :  center ;
-      flex-direction  :  colonne ;
-    }
-
-    #  accueil   a {
-      couleur  de  fond  :   #  ffffff ;
-      couleur  :   # 000000 ;
-      affichage  :  bloc  en  ligne ;
-      marge-haut  :   20 px ;
-      rembourrage  :   10 px   20 px ;
-      transition  :  couleur  de  fond 0 , 3 s ;
-    }
-
-    #  accueil   a  :  survolez {
-      couleur  de  fond  :   #  cccccc ;
-    }
-
-    /* Infos BTS SIO */
-    #  bts-sio-info {
-      text-align  :  gauche ;
-    }
-
-    #  bts-sio-info   h2 {
-      taille  de  police  :   24 px ;
-      marge-bas  :   20 px ;
-      couleur  :   #  ffffff ;
-    }
-
-    #  bts-sio-info   h3 {
-      taille  de  police  :   20 px ;
-      marge-bas  :   10 px ;
-      couleur  :   #  ffffff ;
-    }
-
-    #  bts-sio-info   p {
-      marge-bas  :   20 px ;
-      couleur  :   #  ffffff ;
-    }
-
-  </ style > _ _
-</  t ête >
-<corps>  _  _
-  <  en-t ête  >
-    <!-- Menu de navigation -->
-    <  navigation  >
-      <ul> _ _ _
-        <  li  >  <  a   href =" #accueil " > ACCUEIL </  a  >  </  li  >
-        <  li  >  <  a   href =" #profil " > PROFIL </  a  >  </  li  >
-        <  li  >  <  a   href =" #bts-sio " > BTS SIO </  a  >  </  li  >
-        <  li  >  <  a   href =" #veille-technologique " > VEILLE TECHNOLOGIQUE </  a  >  </  li  >
-        <  li  >  <  a   href =" #stage " > ÉTAPE </  a  >  </  li  >
-        <  li  >  <  a   href =" #document " > DOCUMENT </  a  >  </  li  >
-      </ul> _ _ _
-    </ nav > _ _
-    <!DOCTYPE html >
-<  html   lang =" fr " >
-<  t ête  >
-  <  jeu  de  caractères  méta   =" UTF-8 " >
-  <  meta   name =" viewport " content =" width=device-width, initial-scale=1.0 " >
-  <  title  > Aksel BENNEOUALA - Portfolio </  title  >
-  <  style  >
-    /* Styles de base */
-    corps {
-      font-family  :  Arial  ,  sans-serif ;
-      hauteur  de  ligne  :   1.6 ;
-      marge  :   0 ;
-      rembourrage  :   0 ;
-      image  de  fond  :   url ( 'https://example.com/background-image.jpg' ); /* Remplacez par l'URL de votre image de fond */
-      format de fond  :  couverture ;
-      background-repeat  :  pas  de  r épétition ;
-      position  d' arrière-plan : centre ;
-    }
-
-    un {
-      texte-d éc or ation :  aucun ;
-    }
-
-    /* Menu de navigation */
-    navigation {
-      couleur  de  fond  :   rgba ( 0 ,   0 ,   139 ,   0.7 );
-      d éb ou dément :  masqué ;
-      poste  :  fixe ;
-      haut  :   0 ;
-      largeur  :   100 % ;
-      indice  z  :   100 ;
-    }
-
-    nav   ul {
-      type  de  style  de  liste  :  aucun ;
-      marge  :   0 ;
-      rembourrage  :   0 ;
-    }
-
-    navigation   { _
-      flotteur  :  gauche ;
-    }
-
-    nav   un {
-      couleur  :   #  ffffff ;
-      affichage  :  bloc ;
-      rembourrage  :   14 px   16 px ;
-      text-align  :  center ;
-    }
-
-    nav   a  :  survoler {
-      couleur  de  fond  :   #  ffffff ;
-      couleur  :   # 000000 ;
+    nav a:hover {
+      background-color: #ffffff;
+      color: #000000;
     }
 
     /* Sections */
-    rubrique {
-      rembourrage  :   80 px   0 ;
-      text-align  :  center ;
+    section {
+      padding: 80px 0;
+      text-align: center;
     }
 
-    h1  ,   h2 {
-      couleur  :   #  ffffff ;
+    h1, h2 {
+      color: #ffffff;
     }
 
     /* Accueil */
-    #  accueil {
-      couleur  de  fond  :   rgba ( 0 ,   0 ,   139 ,   0.7 );
-      hauteur  :   100 vh ;
-      affichage  :  flexible ;
-      align-items  :  center ;
-      justifier-contenu  :  center ;
-      flex-direction  :  colonne ;
+    #accueil {
+      background-color: rgba(0, 0, 139, 0.7);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
 
-    #  accueil   a {
-      couleur  de  fond  :   #  ffffff ;
-      couleur  :   # 000000 ;
-      affichage  :  bloc  en  ligne ;
-      marge-haut  :   20 px ;
-      rembourrage  :   10 px   20 px ;
-      transition  :  couleur  de  fond 0 , 3 s ;
+    #accueil a {
+      background-color: #ffffff;
+      color: #000000;
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
     }
 
-    #  accueil   a  :  survolez {
-      couleur  de  fond  :   #  cccccc ;
+    #accueil a:hover {
+      background-color: #cccccc;
     }
 
-    /* Infos BTS SIO */
-    #  bts-sio-info {
-      text-align  :  gauche ;
+    /* BTS SIO */
+    #bts-sio-info {
+      text-align: left;
     }
 
-    #  bts-sio-info   h2 {
-      taille  de  police  :   24 px ;
-      marge-bas  :   20 px ;
-      couleur  :   #  ffffff ;
+    #bts-sio-info h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #ffffff;
     }
 
-    #  bts-sio-info   h3 {
-      taille  de  police  :   20 px ;
-      marge-bas  :   10 px ;
-      couleur  :   #  ffffff ;
+    #bts-sio-info h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #ffffff;
     }
 
-    #  bts-sio-info   p {
-      marge-bas  :   20 px ;
-      couleur  :   #  ffffff ;
+    #bts-sio-info p {
+      margin-bottom: 20px;
+      color: #ffffff;
     }
-
-  </ style > _ _
-</  t ête >
-<corps>  _  _
-  <  en-t ête  >
+  </style>
+</head>
+<body>
+  <nav>
     <!-- Menu de navigation -->
-    <  navigation  >
-      <ul> _ _ _
-        <  li  >  <  a   href =" #accueil " > ACCUEIL </  a  >  </  li  >
-        <  li  >  <  a   href =" #profil " > PROFIL </  a  >  </  li  >
-        <  li  >  <  a   href =" #bts-sio " > BTS SIO </  a  >  </  li  >
-        <  li  >  <  a   href =" #veille-technologique " > VEILLE TECHNOLOGIQUE </  a  >  </  li  >
-        <  li  >  <  a   href =" #stage " > ÉTAPE </  a  >  </  li  >
-        <  li  >  <  a   href =" #document " > DOCUMENT </  a  >  </  li  >
-      </ul> _ _ _
-    </ nav > _ _
-      </  en-t ête >
+    <ul>
+      <li><a href="#accueil">ACCUEIL</a></li>
+      <li><a href="#profil">PROFIL</a></li>
+      <li><a href="#bts-sio">BTS SIO</a></li>
+      <li><a href="#veille-technologique">VEILLE TECHNOLOGIQUE</a></li>
+      <li><a href="#stage">ÉTAPE</a></li>
+      <li><a href="#document">DOCUMENT</a></li>
+    </ul>
+  </nav>
 
-  <  section   id =" accueil " >
-    <  div   class =" présentation " >
-      <  h1  > Bonjour, je m'appelle Aksel Benneouala, étudiant en BTS SIO SISR </  h1  >
-      <  a   href =" #profil " > En savoir plus </  a  >
-    </ div > _ _
-  </  section  >
-
-  <  section   id =" profil " >
+  <section id="accueil">
+  <div class="presentation">
+    <h1>Bonjour, je m'appelle Aksel Benneouala, étudiant en BTS SIO SISR</h1>
+    <a href="#profil">En savoir plus</a>
+  </div>
+</section>
+ 
+<section id="profil">
     <!-- Ajoutez le contenu de la section "profil" ici -->
-  </  section  >
+</section>
 
-<  identifiant  de  section   =" BTS SIO " >
-  <  h2  > QU'EST CE QUE LE BTS SIO ? </ h2 > _ _
-  <  p  > Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, s'adresse à ceux qui souhaitent être anciens en deux ans aux métiers d'administrateur réseau ou de développeur. Pour par la suite s'intégrer directement au marché du travail ou au continuateur des études, dans le domaine de l'informatique. </p> _ _ _
-  <  h3  > Option SISR </  h3  >
-  <  p  > L'option SISR (Solutions d'infrastructures, systèmes et réseaux) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance d'infrastructures réseaux. Les titulaires de cette option peuvent occuper des postes tels qu'administrateur réseau, technicien réseau ou encore ingénieur réseau. Les compétences acquises incluent la sécurité, la maintenance et l'installation des réseaux et des équipements informatiques. </p> _ _ _
-  <  h3  > Option SLAM </  h3  >
-  <  p  > L'option SLAM (Solutions Logicielles et Applications Métier) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance de programmes applicatifs. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications informatiques, analyste d'applications ou d'études, ou encore responsable des services applicatifs. Les compétences acquises incluent la gestion d'un parc informatique, l'administration de réseaux et la sécurisation des serveurs, des postes clients et des équipements d'interconnexion. </p> _ _ _
-</  section  >
+<section id="BTS SIO">
+  <h2>QU'EST CE QUE LE BTS SIO ?</h2>
+  <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, s'adresse à ceux qui souhaitent être formés en deux ans aux métiers d'administrateur réseau ou de développeur. Pour par la suite s'intégrer directement au marché du travail ou continuer des études dans le domaine de l'informatique.</p>
+  <h3>Option SISR</h3>
+  <p>L'option SISR (Solutions d'infrastructures, systèmes et réseaux) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance d'infrastructures réseaux. Les titulaires de cette option peuvent occuper des postes tels qu'administrateur réseau, technicien réseau ou encore ingénieur réseau. Les compétences acquises incluent la sécurité, la maintenance et l'installation des réseaux et des équipements informatiques.</p>
+  <h3>Option SLAM</h3>
+  <p>L'option SLAM (Solutions Logicielles et Applications Métier) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance de programmes applicatifs. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications informatiques, analyste d'applications ou d'études, ou encore responsable des services applicatifs. Les compétences acquises incluent la gestion d'un parc informatique, l'administration de réseaux et la sécurisation des serveurs, des postes clients et des équipements d'interconnexion.</p>
+</section>
 
-<  section   id =" veille-technologique " >
+<section id="veille-technologique">
   <!-- Ajoutez le contenu de la section "veille-technologique" ici -->
-</  section  >
+</section>
 
-<  section   id =" étape " >
-  <!-- Ajoutez le contenu de la section "étape" ici -->
-</  section  >
+<section id="stage">
+  <!-- Ajoutez le contenu de la section "stage" ici -->
+</section>
 
-<  identifiant  de  la  section   =" document " >
+<section id="document">
   <!-- Ajoutez le contenu de la section "document" ici -->
-</  section  >
-
-</corps>  _  _
-</ html > _ _
+</section>
