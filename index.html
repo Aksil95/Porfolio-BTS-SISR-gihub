@@ -1,9 +1,25 @@
- <!DOCTYPE html>
+!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aksel BENNEOUALA - Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:600%2C100%2C400%7CPoppins:600%7CMontserrat:600&display=swap"family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  
+  <!-- Plugin Css -->
+  <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/plugin/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/plugin/wow/css/animate.css" rel="stylesheet">
+  
+  <!-- Theme css -->
+  <link href="static/css/common.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+  <link href="static/css/color/default.css" rel="stylesheet" id="color_theme">
+
   <style>
     /* Styles de base */
     body {
@@ -84,14 +100,15 @@
       background-color: #cccccc;
     }
 
-    /* BTS SIO */
-    #bts-sio-info {
-      text-align: left;
-    }
-    #bts-sio-info h2 {24px;
-margin-bottom: 20px;
-color: #ffffff;
-} 
+/* BTS SIO */
+#bts-sio-info {
+  text-align: left;
+}
+
+#bts-sio-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
 #bts-sio-info h3 {
   font-size: 20px;
@@ -102,70 +119,59 @@ color: #ffffff;
 #bts-sio-info p {
   margin-bottom: 20px;
   color: #ffffff;
+  line-height: 1.5;
 }
 
-/* Veille technologique */
-#veille-technologique {
-  background-color: rgba(0, 0, 139, 0.7);
-  min-height: 100vh; /* Ajouté pour augmenter la hauteur minimale de la section */
+.title {
+  color: #000000;
+  font-weight: bold;
 }
 
-#veille-technologique h2 {
-  margin-bottom: 20px;
-}
-
-#veille-technologique ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#veille-technologique li {
-  margin-bottom: 10px;
-}
-
-#veille-technologique a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#veille-technologique a:hover {
-  text-decoration: underline;
+<section id="veille-technologique">
+  <h2>Veille technologique - Intelligence Artificielle</h2>
+  <p>Voici quelques ressources que je consulte régulièrement pour rester informé des dernières tendances et innovations technologiques en matière d'intelligence artificielle :</p>
+  <ul>
+    <li><a href="https://www.lemondeinformatique.fr/ia/" target="_blank">Le Monde Informatique - Intelligence Artificielle</a></li>
+    <li><a href="https://www.01net.com/actualites/intelligence-artificielle/" target="_blank">01net - Intelligence Artificielle</a></li>
+    <li><a href="https://www.journaldunet.com/solutions/intelligence-artificielle/" target="_blank">Journal du Net - Intelligence Artificielle</a></li>
+    <li><a href="https://www.futura-sciences.com/tech/dossiers/intelligence-artificielle-1798/" target="_blank">Futura</a></li>
+  </ul>
 }
 
 /* Document */
-#document {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  min-height: 100vh; /* Ajouté pour augmenter la hauteur minimale de la section */
+#document, #projet-personnel {
+  background-color: blue;
+  color: #333;
+  padding: 2em;
 }
 
-#document h2 {
-  color: #000000;
-  font-size: 36px; /* Augmentation de la taille du texte */
-  margin-bottom: 20px;
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  color: #000000; /* Couleur du texte en noir */
+  font-weight: bold; /* Texte en gras */
 }
 
-#document ul {
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-#document li {
-  margin-bottom: 10px;
-  font-size: 24px; /* Augmentation de la taille du texte */
+li {
+  margin-bottom: 0.5em;
 }
 
-#document a {
-  color: #0000ff;
+a {
+  color: #069;
   text-decoration: none;
-  font-size: 24px; /* Augmentation de la taille du texte */
 }
 
-#document a:hover {
-  color 4b0082;
+a:hover {
+  text-decoration: underline;
 }
+
 
 /* Stage */
 #stage {
@@ -196,7 +202,54 @@ color: #ffffff;
 
 #stage a:hover {
   text-decoration: underline;
+  
+  }  
+  
+/* Veille technologique */
+#veille-technologique {
+  background-color: rgba(0, 0, 139, 0.7);
+  min-height: 150vh; /* Augmentation de la hauteur minimale de la page */
+  padding: 20px;
+  color: #ffffff;
 }
+
+#veille-technologique h2 {
+  margin-bottom: 20px;
+  color: #ffffff; /* Maintient la couleur du titre en blanc */
+}
+
+#veille-technologique ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#veille-technologique li {
+  margin-bottom: 10px;
+}
+
+#veille-technologique a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#veille-technologique a:hover {
+  color: #666666;
+}
+
+.article-link {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.article-link:hover {
+  background-color: #cccccc;
+}
+
+
 </style>
 </head>
 <body>
@@ -221,41 +274,64 @@ color: #ffffff;
   
     </section>
     <section id="bts-sio">
-      <h2>QU'EST CE QUE LE BTS SIO ?</h2>
+     <h2 class="title">QU'EST CE QUE LE BTS SIO ?</h2>
       <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, s'adresse à ceux qui souhaitent être formés en deux ans aux métiers d'administrateur réseau ou de développeur. Pour par la suite s'intégrer directement au marché du travail ou continuer des études dans le domaine de l'informatique.</p>
       <h3>Option SISR</h3>
       <p>L'option SISR (Solutions d'infrastructures, systèmes et réseaux) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance d'infrastructures réseaux. Les titulaires de cette option peuvent occuper des postes tels qu'administrateur réseau, technicien réseau ou encore ingénieur réseau. Les compétences acquises incluent la sécurité, la maintenance et l'installation des réseaux et des équipements informatiques.</p>
       <h3>Option SLAM</h3>
       <p>L'option SLAM (Solutions Logicielles et Applications Métier) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance de programmes applicatifs. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications informatiques, analyste d'applications ou d'études, ou encore responsable des services applicatifs. Les compétences acquises incluent la gestion d'un parc informatique, l'administration de réseaux et la sécurisation des serveurs, des postes clients et des équipements d'interconnexion.</p>
-    </section>
-    <section id="veille- technologique">
-      <h2>Veille technologique</h2>
-      <p>Voici quelques ressources que je consulte régulièrement pour rester informé des dernières tendances et innovations technologiques :</p>
-      <ul>
-      <li><a href="https://www.lemondeinformatique.fr/">Le Monde Informatique</a></li>
-      <li><a href="https://www.clubic.com/">Clubic</a></li>
-      <li><a href="https://www.01net.com/">01net</a></li>
-      <li><a href="https://www.journaldunet.com/">Journal du Net</a></li>
-      <li><a href="https://www.techrepublic.com/">TechRepublic</a></li>
-      </ul>
+    <body>
       
-        </section>
-        <section id="stage">
-          <h2>Rapport de stage</h2>
-          <p>Vous pouvez consulter mon rapport de stage en cliquant sur le lien ci-dessous :</p>
-          <a href="https://example.com/rapport-de-stage.pdf" target="_blank">Télécharger mon rapport de stage (PDF)</a>
-        </section>
-        <section id="document">
-          <h2>Mes travaux</h2>
-          <ul>
-            <li><a href="https://example.com/Mission1_SSH__1.pdf" target="_blank">Mission1_SSH__1</a></li>
-            <li><a href="https://example.com/Mission0_VM.pdf" target="_blank">Mission0_VM</a></li>
-            <li><a href="https://example.com/Mission_ARP_DNS.pdf" target="_blank">Mission_ARP_DNS</a></li>
-            <li><a href="https://example.com/Mission_1_SSH.pdf" target="_blank">Mission 1 SSH</a></li>
-            <li><a href="https://example.com/Mission_2_outil.pdf" target="_blank">Mission 2 outil</a></li>
-            <li><a href="https://example.com/missions_3_dhcp.pdf" target="_blank">missions 3 dhcp</a></li>
-            <li><a href="https://example.com/PIX.pdf" target="_blank">PIX</a></li>
-          </ul>
-        </section>
-      </body>
-      </html>
+ <section id="veille-technologique">
+  <h2>Veille technologique - Pare-feux de nouvelle génération (NGFW)</h2>
+  <p>La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques et les innovations dans un secteur d'activité donné. Elle comprend notamment la surveillance, la collecte, le partage et la diffusion d'informations permettant d'anticiper ou de s'informer sur des changements en matière de recherche, développement, brevets, lancements de nouveaux produits, matériaux, processus, concepts, innovations de fabrication, etc. Cela a pour but d'évaluer l'impact sur l'environnement et l'organisation.</p>
+  <h3>Les pare-feux de nouvelle génération (NGFW) : utilité et sources</h3>
+  <p>Les pare-feux de nouvelle génération (NGFW) sont des dispositifs de sécurité réseau avancés offrant une protection supérieure contre les cybermenaces. Ils combinent les fonctionnalités des pare-feux traditionnels avec des technologies de sécurité additionnelles telles que l'inspection approfondie des paquets (DPI), le contrôle des applications, la prévention des intrusions (IPS) et la protection contre les malwares avancés.</p>
+  <p>Voici quelques sources d'information en français sur les pare-feux de nouvelle génération :</p>
+  <ul>
+    <li><a href="https://www.solutions-numeriques.com/pare-feu-de-nouvelle-generation-les-avantages-et-les-lacunes/" target="_blank">Solutions Numériques</a> - Avantages et lacunes des pare-feux de nouvelle génération.</li>
+    <li><a href="https://www.cyberdefensemag.fr/pare-feu-ngfw-quels-sont-les-avantages-et-les-inconvenients/" target="_blank">Cyber Defense Mag</a> - Avantages et inconvénients des pare-feux NGFW.</li>
+    <li><a href="https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1196381-pare-feu-de-nouvelle-generation/" target="_blank">Journal du Net</a> - Définition des pare-feux de nouvelle génération.</li>
+  </ul>
+  <h3>Suivi d'informations de la veille technologique</h3>
+  <h4>Google Alert</h4>
+  <p>Mots clés :</p>
+  <ul>
+    <li>Pare-feu de nouvelle génération</li>
+    <li>NGFW</li>
+    <li>Firewall</li>
+    <li>Sécurité réseau</li>
+    <li>Intrusion Prevention System</li>
+    <li>Deep Packet Inspection</li>
+    <li>Application Control</li>
+    <li>Palo Alto Networks</li>
+    <li>Fortinet</li>
+    <li>Cisco</li>
+    <li>Check Point</li>
+    <li>Juniper Networks</li>
+  </ul>
+  <h3>Comment sont traitées les informations ?</h3>
+  <p>Les informations arrivent sous forme de mail de Google Alert tous les jours. Des rapports sont envoyés et sont par la suite traités et triés dans la boite mail. Une fois les alertes Google triées , les informations utiles sont par la suite ajoutées dans Pearltrees, afin de pouvoir les regrouper et pour consulter plus facilement les informations importantes.</p>
+
+</section>                                                                                                 
+
+  </section>
+ <section id="document">
+    <h2>Mes documents BTS SISR</h2>
+    <ul>
+      <li><a href="https://example.com/Mission1_SSH__1.pdf" target="_blank">Mission1_SSH__1</a></li>
+      <li><a href="https://example.com/Mission0_VM.pdf" target="_blank">Mission0_VM</a></li>
+      <li><a href="https://example.com/Mission_ARP_DNS.pdf" target="_blank">Mission_ARP_DNS</a></li>
+      <li><a href="https://example.com/Mission_1_SSH.pdf" target="_blank">Mission 1 SSH</a></li>
+      <li><a href="https://example.com/Mission_2_outil.pdf" target="_blank">Mission 2 outil</a></li>
+    
+    </ul>
+  </section>
+  <section id="projet-personnel">
+    <h2>Projets personnels</h2>
+    <ul><li><a href="https://example.com/PIX.pdf" target="_blank">PIX</a></li>
+      <li><a href="file:///C:/Users/aksbe/OneDrive/Images/Mission%20ssh.pdf" target="_blank">Installation Windows 10</a></li>
+    </ul>
+  </section>
+</body>
+</html>
