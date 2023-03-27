@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -7,7 +7,7 @@
   <title>Aksel BENNEOUALA - Portfolio</title>
   
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:600%2C100%2C400%7CPoppins:600%7CMontserrat:600&display=swap"family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://drive.google.com/file/d/1ooM4FCh2DdfMA_cIqOwM7tM1gh_M96JF/view?usp=sharingfamily=Roboto:600%2C100%2C400%7CPoppins:600%7CMontserrat:600&display=swap"family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   
   <!-- Plugin Css -->
   <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -97,71 +97,57 @@
     }
 
     #accueil a:hover {
-      background-color: #cccccc;
-    }
-
-/* BTS SIO */
-#bts-sio-info {
-  text-align: left;
+      background-color:#cccccc;
+      * PROFIL */
+#profil {
+  background-color: var(--background-color);
+  padding: var(--section-padding);
+  margin-top: var(--section-margin-top);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
-#bts-sio-info h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-#bts-sio-info h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-
-#bts-sio-info p {
-  margin-bottom: 20px;
-  color: #ffffff;
-  line-height: 1.5;
-}
-
-.title {
-  color: #000000;
+/* Profil Headings */
+#profil h2 {
+  font-size: var(--heading-font-size);
+  margin-bottom: var(--text-margin-bottom);
+  color: var(--primary-color);
   font-weight: bold;
 }
-<h3>Les pare-feux de nouvelle génération (NGFW) : objectifs et utilité</h3>
-<p>Les pare-feux de nouvelle génération (NGFW) sont des dispositifs de sécurité réseau avancés qui offrent une protection supérieure contre les cybermenaces par rapport aux pare-feux traditionnels. Ils sont conçus pour protéger les réseaux d'entreprise et les systèmes informatiques contre les attaques et les intrusions en examinant en profondeur le trafic réseau et en appliquant des règles de sécurité spécifiques à chaque application. Les NGFW combinent les fonctionnalités des pare-feux classiques avec des technologies de sécurité supplémentaires pour offrir une protection plus complète et plus granulaire.</p>
-<p>Voici quelques-uns des principaux objectifs et avantages des pare-feux de nouvelle génération :</p>
-<ul>
-  <li><strong>Filtrage des paquets et contrôle d'accès :</strong> Les NGFW assurent un contrôle d'accès au niveau des paquets et des applications en se basant sur des règles de sécurité définies par l'administrateur. Ils peuvent bloquer ou autoriser le trafic en fonction de l'adresse IP source et de destination, du port, du protocole et d'autres critères spécifiques.</li>
-</ul>
-<h3>Suivi d'informations de la veille technologique</h3>
-<h4>Google Alert</h4>
-<p>Mots clés :</p>
-<ul>
-  <li>Pare-feu de nouvelle génération</li>
-  <li>NGFW</li>
-  <li>Firewall</li>
-  <li>Sécurité réseau</li>
-  <li>Intrusion Prevention System</li>
-  <li>Deep Packet Inspection</li>
-  <li>Application Control</li>
-  <li>Palo Alto Networks</li>
-  <li>Fortinet</li>
-  <li>Cisco</li>
-  <li>Check Point</li>
-  <li>Juniper Networks</li>
-</ul>
-<h3>Comment sont traitées les informations ?</h3>
-<p>Les informations arrivent sous forme de mail de Google Alert tous les jours. Des rapports sont envoyés et sont par la suite traités et triés dans la boite mail. Une fois les alertes Google triées, les informations utiles sont par la suite ajoutées dans Pearltrees, afin de pouvoir les regrouper et pour consulter plus facilement les informations importantes.</p>
-<h3>Sites français sur les pare-feux de nouvelle génération (NGFW)</h3>
-<p>Voici quelques sites français qui traitent des pare-feux de nouvelle génération :</p>
-<ul>
-  <li><a href="https://www.zdnet.fr/actualites/pare-feux-de-nouvelle-generation-les-cinq-questions-a-se-poser-avant-d-acheter-39818034.htm" target="_blank">ZDNet - Pare-feux de nouvelle génération : les cinq questions à se poser avant d'acheter</a></li>
-  <li><a href="https://www.silicon.fr/dossiers/next-gen-firewall" target="_blank">Silicon - Next Gen Firewall</a></li>
-  <li><a href="https://www.lemondeinformatique.fr/actualites/lire-les-pare-feux-ngfw-se-positionnent-en-chefs-d-orchestre-de-la-securite-79814.html" target="_blank">Le Monde Informatique - Les pare-feux NGFW se positionnent en chefs d'orchestre de la sécurité</a></li>
-  <li><a href="https://www.globalsecuritymag.fr/Pare-feu-de-nouvelle-generation,20171027,74562.html" target="_blank">Global Security Mag - Pare-feu de nouvelle génération : un impératif pour les entreprises</a></li>
-  <li><a href="https://www.itconnect.fr/pare-feu-de-nouvelle-generation-ngfw/" target="_blank">IT Connect - Pare-feu de nouvelle génération (NGFW) : présentation et avantages</a></li>
-</ul>
+
+/* Profil Paragraphs */
+#profil p {
+  font-size: var(--main-font-size);
+  line-height: var(--line-height);
+  margin-bottom: var(--text-margin-bottom);
 }
 
+/* Profil List */
+#profil ul {
+  list-style: disc;
+  margin-left: var(--list-margin-left);
+}
+
+/* Profil List Items */
+#profil li {
+  font-size: var(--main-font-size);
+  line-height: var(--line-height);
+  margin-bottom: var(--list-item-margin-bottom);
+}
+
+/* Profil Links */
+#profil a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Profil Links Hover */
+#profil a:hover {
+  text-decoration: underline;
+}
+/* Fin de la section PROFIL */
+}
 /* Document */
 #document, #projet-personnel {
   background-color: blue;
@@ -228,13 +214,13 @@ a:hover {
   text-decoration: underline;
   
   }  
-  
-/* Veille technologique */
+//* Veille technologique */
 #veille-technologique {
   background-color: rgba(0, 0, 139, 0.7);
   min-height: 150vh; /* Augmentation de la hauteur minimale de la page */
   padding: 20px;
   color: #ffffff;
+  margin-top: 50px; /* Ajout d'une marge supérieure de 50 pixels */
 }
 
 #veille-technologique h2 {
@@ -288,14 +274,23 @@ a:hover {
       <li><a href="#document">DOCUMENT</a></li>
     </ul>
   </nav>
-  <section id="accueil">
+  <section id="Profil">
     <div class="presentation">
       <h1>Bonjour, je m'appelle Aksel Benneouala, étudiant en BTS SIO SISR</h1>
       <a href="#profil">En savoir plus</a>
     </div>
-  </section> id=="profil">
-  <!-- Ajoutez le contenu de la section "profil" ici -->
-  
+<section id="PROFIL">
+  <h2>A propos de moi et expérience pro</h2>
+  <p>Je m'appelle Aksel Benneouala, j'ai 19 ans et je suis actuellement étudiant en deuxième année de BTS Services Informatiques aux Organisations (BTS SIO) dans la spécialité Solutions d'Infrastructure, Systèmes et Réseaux (SISR) au Lycée de l'Hautil à Jouy-le-Moutier.</p>
+  <p>Au fil des années, j'ai développé un intérêt particulier pour le réseau informatique. Aujourd'hui, en tant qu'étudiant en SISR...</p>
+  <h3>Expériences professionnelles:</h3>
+  <ul>
+    <li>Stage de découverte en entreprise de maintenance informatique pendant ma 3ème</li>
+    <li>Stage de première année BTS SIO option SISR en tant qu'administrateur réseau à la mairie principale de Jouy-le-Moutier en 2021</li>
+    <li>Stage de deuxième année BTS SIO option SISR à la DDSP 95 à Cergy</li>
+  </ul>
+</section>
+
     </section>
     <section id="bts-sio">
      <h2 class="title">QU'EST CE QUE LE BTS SIO ?</h2>
@@ -305,17 +300,19 @@ a:hover {
       <h3>Option SLAM</h3>
       <p>L'option SLAM (Solutions Logicielles et Applications Métier) est destinée aux étudiants qui s'orientent vers les métiers liés à la conception et à la maintenance de programmes applicatifs. Les diplômés de cette option peuvent occuper des postes tels que développeur d'applications informatiques, analyste d'applications ou d'études, ou encore responsable des services applicatifs. Les compétences acquises incluent la gestion d'un parc informatique, l'administration de réseaux et la sécurisation des serveurs, des postes clients et des équipements d'interconnexion.</p>
     <body>
-      
- <section id="veille-technologique">
-  <h2>Veille technologique - Pare-feux de nouvelle génération (NGFW)</h2>
-  <p>La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques et les innovations dans un secteur d'activité donné. Elle comprend notamment la surveillance, la collecte, le partage et la diffusion d'informations permettant d'anticiper ou de s'informer sur des changements en matière de recherche, développement, brevets, lancements de nouveaux produits, matériaux, processus, concepts, innovations de fabrication, etc. Cela a pour but d'évaluer l'impact sur l'environnement et l'organisation.</p>
-  <h3>Les pare-feux de nouvelle génération (NGFW) : utilité et sources</h3>
-  <p>Les pare-feux de nouvelle génération (NGFW) sont des dispositifs de sécurité réseau avancés offrant une protection supérieure contre les cybermenaces. Ils combinent les fonctionnalités des pare-feux traditionnels avec des technologies de sécurité additionnelles telles que l'inspection approfondie des paquets (DPI), le contrôle des applications, la prévention des intrusions (IPS) et la protection contre les malwares avancés.</p>
-  <p>Voici quelques sources d'information en français sur les pare-feux de nouvelle génération :</p>
+ <section id="veille-technologique">>
+  <h2>Les pare-feux de nouvelle génération (NGFW) : objectifs et utilité</h2>
+  <p>Les pare-feux de nouvelle génération (NGFW) sont des dispositifs de sécurité réseau avancés qui permettent de protéger les réseaux d'entreprise et les systèmes informatiques contre les cybermenaces. Contrairement aux pare-feux traditionnels, qui se contentent de filtrer les paquets en fonction de règles de sécurité basiques, les NGFW examinent en profondeur le trafic réseau et appliquent des règles de sécurité spécifiques à chaque application.
+
+Les NGFW combinent les fonctionnalités des pare-feux classiques avec des technologies de sécurité supplémentaires pour offrir une protection plus complète et plus granulaire. Ils assurent un contrôle d'accès au niveau des paquets et des applications en se basant sur des règles de sécurité définies par l'administrateur. Ainsi, ils peuvent bloquer ou autoriser le trafic en fonction de l'adresse IP source et de destination, du port, du protocole et d'autres critères spécifiques.
+
+En plus du filtrage de paquets et du contrôle d'accès, les NGFW intègrent également des fonctionnalités telles que la prévention des intrusions, l'inspection en profondeur des paquets (Deep Packet Inspection), la protection contre les logiciels malveillants, le contrôle d'applications, la surveillance du trafic réseau, la gestion des identités et des accès, et bien plus encore.
+
+Ces fonctionnalités supplémentaires permettent aux NGFW de mieux détecter et bloquer les menaces sophistiquées, telles que les attaques de type zero-day, les logiciels malveillants avancés, les attaques par déni de service (DDoS), et les attaques de phishing.
+
+En somme, les pare-feux de nouvelle génération sont essentiels pour garantir la sécurité des réseaux et des systèmes informatiques dans les entreprises. Ils offrent une protection supérieure contre les cybermenaces en combinant les fonctionnalités des pare-feux classiques avec des technologies de sécurité avancées:</p>
   <ul>
-    <li><a href="https://www.solutions-numeriques.com/pare-feu-de-nouvelle-generation-les-avantages-et-les-lacunes/" target="_blank">Solutions Numériques</a> - Avantages et lacunes des pare-feux de nouvelle génération.</li>
-    <li><a href="https://www.cyberdefensemag.fr/pare-feu-ngfw-quels-sont-les-avantages-et-les-inconvenients/" target="_blank">Cyber Defense Mag</a> - Avantages et inconvénients des pare-feux NGFW.</li>
-    <li><a href="https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1196381-pare-feu-de-nouvelle-generation/" target="_blank">Journal du Net</a> - Définition des pare-feux de nouvelle génération.</li>
+    <li><strong>Filtrage des paquets et contrôle d'accès :</strong> Les NGFW assurent un contrôle d'accès au niveau des paquets et des applications en se basant sur des règles de sécurité définies par l'administrateur. Ils peuvent bloquer ou autoriser le trafic en fonction de l'adresse IP source et de destination, du port, du protocole et d'autres critères spécifiques.</li>
   </ul>
   <h3>Suivi d'informations de la veille technologique</h3>
   <h4>Google Alert</h4>
@@ -335,16 +332,32 @@ a:hover {
     <li>Juniper Networks</li>
   </ul>
   <h3>Comment sont traitées les informations ?</h3>
-  <p>Les informations arrivent sous forme de mail de Google Alert tous les jours. Des rapports sont envoyés et sont par la suite traités et triés dans la boite mail. Une fois les alertes Google triées , les informations utiles sont par la suite ajoutées dans Pearltrees, afin de pouvoir les regrouper et pour consulter plus facilement les informations importantes.</p>
+  <p>Les informations arrivent sous forme de mail de Google Alert tous les jours. Des rapports sont envoyés et sont par la suite traités et triés dans la boite mail. Une fois les alertes Google triées, les informations utiles sont par la suite ajoutées dans Pearltrees, afin de pouvoir les regrouper et pour consulter plus facilement les informations importantes.</p>
+ <h3>Sites français sur les pare-feux de nouvelle génération (NGFW)</h3>
+<p>Voici quelques sites français qui traitent des pare-feux de nouvelle génération :</p>
+<ul>
+  <li><a href="https://www.zdnet.fr/actualites/pare-feux-de-nouvelle-generation-les-cinq-questions-a-se-poser-avant-d-acheter-39818034.htm" target="_blank">ZDNet - Pare-feux de nouvelle génération : les cinq questions à se poser avant d'acheter</a></li>
+  <li><a href="https://www.silicon.fr/dossiers/next-gen-firewall" target="_blank">Silicon - Next Gen Firewall</a></li>
+  <li><a href="https://www.lemondeinformatique.fr/actualites/lire-les-pare-feux-ngfw-se-positionnent-en-chefs-d-orchestre-de-la-securite-79814.html" target="_blank">Le Monde Informatique - Les pare-feux NGFW se positionnent en chefs d'orchestre de la sécurité</a></li>
+  <li><a href="https://www.globalsecuritymag.fr/Pare-feu-de-nouvelle-generation,20171027,74562.html" target="_blank">Global Security Mag - Pare-feu de nouvelle génération : un impératif pour les entreprises</a></li>
+  <li><a href="https://www.itconnect.fr/pare-feu-de-nouvelle-generation-ngfw/" target="_blank">IT Connect - Pare-feu de nouvelle génération (NGFW) : présentation et avantages</a></li>
+</ul>
+<h3>Sites en anglais sur les pare-feux de nouvelle génération (NGFW)</h3>
+<p>Voici quelques sites en anglais qui proposent des informations sur les pare-feux de nouvelle génération :</p>
+<ul>
+  <li><a href="https://www.lemagit.fr/definition/Pare-feu-de-nouvelle-generation-NGFW" target="_blank">LeMagIT - Definition of Next-Generation Firewall (NGFW)</a></li>
+  <li><a href="https://www.cloudflare.com/fr-fr/learning/cloud/ngfw-vs-fwaas/" target="_blank">Cloudflare - NGFW vs. FWaaS</a></li>
+  <li><a href="https://www.zscaler.fr/resources/security-terms-glossary/what-is-next-generation-firewall" target="_blank">Zscaler - What Is a Next-Generation Firewall (NGFW)?</a></li>
+  <li><a href="https://www.fortinet.com/fr/products/next-generation-firewall" target="_blank">Fortinet - Next-Generation Firewalls (NGFW)</a></li>
 </ul>
 
-<section id="stage">
+section id="stage">
   <h2>Rapport de stage</h2>
   <p>Vous pouvez consulter mon rapport de stage en cliquant sur le lien ci-dessous :</p>
   <a href="https://drive.google.com/file/d/15lSmU4cTIq8ZRKtd4KeidOlKL6iAPvoe/view?usp=sharing" target="_blank">Télécharger mon rapport de stage (PDF)</a>
 </section>
  <section id="document">
-    <h2>Mes documents BTS SISR</h2>
+ <h2>Mes documents BTS SISR</h2>
     <ul>
       <li><a href="https://drive.google.com/file/d/1XEPYLGZnVMAogM9TjJ0RHNNBmIVv1VFK/view?usp=sharing" target="_blank">Mission1_SSH__1</a></li>
       <li><a href="https://drive.google.com/file/d/1tMPd1cSJ4dZWNpb-Y_tvBSyBgt3lOYse/view?usp=sharing" target="_blank">Mission0_VM</a></li>
@@ -362,3 +375,4 @@ a:hover {
   </section>
 </body>
 </html>
+   
